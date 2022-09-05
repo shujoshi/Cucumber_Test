@@ -110,9 +110,11 @@ public class stepdef {
 
 			String rank = driver.findElement(By.xpath("(//span[contains(@id,'bidRank')])[" + i + "]")).getText();
 			Integer intRank = 0;
-			if(!rank.equals("Not bidded")) {
-			 intRank = Integer.valueOf(rank);
-			}
+			if(rank.equals("Not bidded")) {
+			 intRank = 2;
+			}else {
+				 intRank = Integer.valueOf(rank);
+				}
 			if (intRank > 1) {
 
 				String amount = driver.findElement(By.xpath("(//span[contains(@id,'netBidAmt')])[" + i + "]"))
