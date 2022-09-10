@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Auction #2
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 35.715 s <<< FAILURE! - in Auction #2
+Test(Auction #2)  Time elapsed: 17.316 s  <<< ERROR!
+java.lang.NumberFormatException: For input string: "-"
+

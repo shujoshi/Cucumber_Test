@@ -7,23 +7,20 @@ import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 
 public class stepdef {
-	WebDriver driver = new ChromeDriver();
+	public static WebDriver driver = Hooks.driver;
 
 	Locators locator = new Locators();
 
 	@Given("Navigate to {string}")
 	public void navigate_to(String string) {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Shubham\\eclipse-workspace\\Cucumber_Parallel\\chromedriver.exe");
 
 		driver.get(string);
 
@@ -75,6 +72,10 @@ public class stepdef {
 
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='reportDetail']/tr/td[2]/div/p")));
+
 		List<WebElement> paraList = driver.findElements(By.xpath("//*[@id='reportDetail']/tr/td[2]/div/p"));
 
 		for (int i = 1; i <= paraList.size(); i++) {
@@ -91,49 +92,90 @@ public class stepdef {
 			System.out.println("auctionIDAct is: " + auctionIDAct);
 
 			if (auctionIDAct.equals(auctionID.toString())) {
-				driver.findElement(By.xpath("(//a[text()='View result'])["+i+"]")).click();
+				driver.findElement(By.xpath("(//a[text()='View result'])[" + i + "]")).click();
+				break;
+			}
+		}
+
+	}
+	
+	@When("Click on Manual bid button for Auction ID {int}")
+	public void click_manual_bid_button(Integer auctionID) {
+
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='reportDetail']/tr/td[2]/div/p")));
+
+		List<WebElement> paraList = driver.findElements(By.xpath("//*[@id='reportDetail']/tr/td[2]/div/p"));
+
+		for (int i = 1; i <= paraList.size(); i++) {
+
+			String paragraph = driver.findElement(By.xpath("(//*[@id='reportDetail']/tr/td[2]/div/p)[" + i + "]"))
+					.getText();
+
+			String[] paragraphArray = paragraph.split("Auction ID: ");
+
+			String[] stringArray = paragraphArray[1].split("\n");
+
+			String auctionIDAct = stringArray[0];
+
+			System.out.println("auctionIDAct is: " + auctionIDAct);
+
+			if (auctionIDAct.equals(auctionID.toString())) {
+				driver.findElement(By.xpath("(//a[text()='Manual bid'])[" + i + "]")).click();
 				break;
 			}
 		}
 
 	}
 
-	@When("Enter Bidding Amount")
-	public void enter_bidding_amount() {
+	@When("Enter Bidding Amount start from Sr No {int} for row count {int}")
+	public void enter_bidding_amount(Integer arg1, Integer arg2) {
 
 		WebDriverWait wait = new WebDriverWait(driver, 20);
-		
+
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator.yourRank)));
 		List<WebElement> weList = driver.findElements(By.xpath(locator.yourRank));
 
-		for (int i = 1; i <= weList.size(); i++) {
+		System.out.println("weList is: " + weList.size());
+		long endTime = System.nanoTime() + TimeUnit.NANOSECONDS.convert(1L, TimeUnit.MINUTES);
+		while (System.nanoTime() < endTime) {
+			int i = arg1;
+			for (i = arg1; i < (arg1 + arg2); i++) {
 
-			String rank = driver.findElement(By.xpath("(//span[contains(@id,'bidRank')])[" + i + "]")).getText();
-			Integer intRank = 0;
-			if(rank.equals("Not bidded")) {
-			 intRank = 2;
-			}else {
-				 intRank = Integer.valueOf(rank);
+				String rank = driver.findElement(By.xpath("(//span[contains(@id,'bidRank')])[" + i + "]")).getText();
+				Integer intRank = 0;
+				if (rank.equals("Not bidded")) {
+					intRank = 2;
+				} else {
+					intRank = Integer.valueOf(rank);
 				}
-			if (intRank > 1) {
+				if (intRank > 1) {
 
-				String amount = driver.findElement(By.xpath("(//span[contains(@id,'netBidAmt')])[" + i + "]"))
-						.getText();
+					String amount = driver.findElement(By.xpath("(//span[contains(@id,'netBidAmt')])[" + i + "]"))
+							.getText();
 
-				Double intAmount = Double.valueOf(amount);
+					Double intAmount = Double.valueOf(amount);
 
-				Double increasedAmount = intAmount + 50;
+					Double increasedAmount = intAmount + 0;
 
-				driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]")).clear();
+					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]")).clear();
 
-				driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]"))
-						.sendKeys(increasedAmount.toString());
+					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]"))
+							.sendKeys(increasedAmount.toString());
+					
+//					driver.findElement(By.xpath("(//button[text()='Bid'])[" + i + "]")).click();
+//					
+//					driver.findElement(By.xpath(locator.popYes));
 
-				System.out.println("Rank is: " + intRank + " and amount is: " + amount);
+					System.out.println("Rank is: " + intRank + " and amount is: " + amount);
+				}
+
 			}
-
+			
 		}
-
 	}
-
+	
 }

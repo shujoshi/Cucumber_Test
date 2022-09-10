@@ -1,0 +1,336 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-10T10:00:48.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4743000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login into Application",
+        "description": "",
+        "id": "auction;login-into-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8240000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"https://jewel-auction.procuretiger.com/JEWEL/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://jewel-auction.procuretiger.com/JEWEL/\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.stepdef.navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca id\u003d\"loginLink\" href\u003d\"#\" onclick\u003d\"loginWindow();\"\u003e...\u003c/a\u003e is not clickable at point (1085, 133). Other element would receive the click: \u003cdiv class\u003d\"window-mask\" style\u003d\"width: 1349px; height: 1052px; display: block; z-index: 9003;\"\u003e\u003c/div\u003e\n  (Session info: chrome\u003d105.0.5195.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-JPGFM2D\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\Shubham\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ebb995411619639f64dbeb619d34dee\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepdefs.stepdef.click_login_button(stepdef.java:34)\r\n\tat ✽.Click on Login button(file:///C:/Users/Shubham/eclipse-workspace/Cucumber_Parallel/src/test/resources/feature/Feature1.feature:6)\r\n",
+              "duration": 1414000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "stepdefs.stepdef.click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter Email ID \"jimmy30678@yahoo.co.in\" Password \"icici@123\" and click on Login Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jimmy30678@yahoo.co.in\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"icici@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefs.stepdef.enter_email_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-10T10:01:03.195Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Test",
+        "description": "",
+        "id": "auction;test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d105.0.5195.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-JPGFM2D\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\Shubham\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ebb995411619639f64dbeb619d34dee\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepdefs.stepdef.click_view_result_button(stepdef.java:95)\r\n\tat ✽.Click on View Results button for Auction ID 5759(file:///C:/Users/Shubham/eclipse-workspace/Cucumber_Parallel/src/test/resources/feature/Feature1.feature:15)\r\n",
+              "duration": 15210000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "Click on View Results button for Auction ID 5759",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5759",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefs.stepdef.click_view_result_button(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Enter Bidding Amount start from Sr No 1 for row count 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 38
+                },
+                {
+                  "val": "5",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefs.stepdef.enter_bidding_amount(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Auction",
+    "description": "",
+    "id": "auction",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Feature1.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-10T10:00:48.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4778000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login into Application",
+        "description": "",
+        "id": "auction;login-into-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8197000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"https://jewel-auction.procuretiger.com/JEWEL/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://jewel-auction.procuretiger.com/JEWEL/\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.stepdef.navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "stepdefs.stepdef.click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4723000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Email ID \"jimmy30678@yahoo.co.in\" Password \"icici@123\" and click on Login Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jimmy30678@yahoo.co.in\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"icici@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefs.stepdef.enter_email_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-10T10:01:06.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Test",
+        "description": "",
+        "id": "auction;test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11672000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on View Results button for Auction ID 5759",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5759",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefs.stepdef.click_view_result_button(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NumberFormatException: For input string: \"-\"\r\n\tat sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)\r\n\tat sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)\r\n\tat java.lang.Double.parseDouble(Double.java:538)\r\n\tat java.lang.Double.valueOf(Double.java:502)\r\n\tat stepdefs.stepdef.enter_bidding_amount(stepdef.java:160)\r\n\tat ✽.Enter Bidding Amount start from Sr No 6 for row count 5(file:///C:/Users/Shubham/eclipse-workspace/Cucumber_Parallel/src/test/resources/feature/Feature2.feature:17)\r\n",
+              "duration": 5621000000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "Enter Bidding Amount start from Sr No 6 for row count 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 38
+                },
+                {
+                  "val": "5",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefs.stepdef.enter_bidding_amount(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Auction",
+    "description": "",
+    "id": "auction",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Feature2.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

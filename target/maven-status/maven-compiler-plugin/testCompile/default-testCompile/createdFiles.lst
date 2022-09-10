@@ -1,3 +1,5 @@
+stepdefs\Hooks.class
 runner\TestRun.class
 stepdefs\stepdef.class
 stepdefs\Locators.class
+managers\Drivermanager.class

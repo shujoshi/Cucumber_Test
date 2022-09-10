@@ -19,4 +19,10 @@ public class Locators {
 	String yourRankDynamic = "(//span[contains(@id,'bidRank')])[index]";
 	
 	String nextPossibleBidAmount = "//span[contains(@id,'netBidAmt')]";
+	
+	String bidButton = "//button[text()='Bid']";
+	
+	String popYes = "//span[@id='popup_ok']";
+	
+	String popNo = "//span[@id='popup_cancel']']";
 }
