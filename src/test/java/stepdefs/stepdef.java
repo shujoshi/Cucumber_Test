@@ -32,6 +32,8 @@ public class stepdef {
 	public void click_login_button() {
 
 		driver.findElement(By.xpath(locator.LoginButton)).click();
+		
+	
 	}
 
 	@When("Enter Email ID {string} Password {string} and click on Login Button")
@@ -42,6 +44,14 @@ public class stepdef {
 		driver.findElement(By.xpath(locator.PasswordInputField)).sendKeys(arg2);
 
 		driver.findElement(By.xpath(locator.LoginButtonPopUp)).click();
+		
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+		List<WebElement> popUp = driver.findElements(By.xpath(locator.popYes));
+		
+		if(popUp.size()>0){
+			driver.findElement(By.xpath(locator.popYes)).click();
+		}
 	}
 
 	@When("Get Auction IDs")
@@ -131,8 +141,56 @@ public class stepdef {
 
 	}
 
-	@When("Enter Bidding Amount start from Sr No {int} for row count {int}")
-	public void enter_bidding_amount(Integer arg1, Integer arg2) {
+//	@When("Enter Bidding Amount start from Sr No {int} for row count {int}")
+//	public void enter_bidding_amount(Integer arg1, Integer arg2) {
+//
+//		WebDriverWait wait = new WebDriverWait(driver, 20);
+//
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator.yourRank)));
+//		List<WebElement> weList = driver.findElements(By.xpath(locator.yourRank));
+//
+//		System.out.println("weList is: " + weList.size());
+//		long endTime = System.nanoTime() + TimeUnit.NANOSECONDS.convert(arg1.longValue(), TimeUnit.MINUTES);
+//		while (System.nanoTime() < endTime) {
+//			int i = arg1;
+//			for (i = arg1; i < (arg1 + arg2); i++) {
+//
+//				String rank = driver.findElement(By.xpath("(//span[contains(@id,'bidRank')])[" + i + "]")).getText();
+//				Integer intRank = 0;
+//				if (rank.equals("Not bidded")) {
+//					intRank = 2;
+//				} else {
+//					intRank = Integer.valueOf(rank);
+//				}
+//				if (intRank > 1) {
+//
+//					String amount = driver.findElement(By.xpath("(//span[contains(@id,'netBidAmt')])[" + i + "]"))
+//							.getText();
+//
+//					Double intAmount = Double.valueOf(amount);
+//
+//					Double increasedAmount = intAmount + 10;
+//
+//					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]")).clear();
+//
+//					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]"))
+//							.sendKeys(increasedAmount.toString());
+//					
+////					driver.findElement(By.xpath("(//button[text()='Bid'])[" + i + "]")).click();
+////					
+////					driver.findElement(By.xpath(locator.popYes));
+//
+//					System.out.println("Rank is: " + intRank + " and amount is: " + amount);
+//				}
+//
+//			}
+//			
+//		}
+//	}
+
+	
+	@When("Enter Bidding Amount start from Sr No {int} for row count {int} run loop for {int} add additional amount {int} and submit {string}")
+	public void enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) {
 
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 
@@ -140,7 +198,7 @@ public class stepdef {
 		List<WebElement> weList = driver.findElements(By.xpath(locator.yourRank));
 
 		System.out.println("weList is: " + weList.size());
-		long endTime = System.nanoTime() + TimeUnit.NANOSECONDS.convert(1L, TimeUnit.MINUTES);
+		long endTime = System.nanoTime() + TimeUnit.NANOSECONDS.convert(arg3.longValue(), TimeUnit.MINUTES);
 		while (System.nanoTime() < endTime) {
 			int i = arg1;
 			for (i = arg1; i < (arg1 + arg2); i++) {
@@ -159,17 +217,21 @@ public class stepdef {
 
 					Double intAmount = Double.valueOf(amount);
 
-					Double increasedAmount = intAmount + 0;
+					Double increasedAmount = intAmount + arg4;
 
 					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]")).clear();
 
 					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]"))
 							.sendKeys(increasedAmount.toString());
 					
+					if(arg5 == "Yes") {
 //					driver.findElement(By.xpath("(//button[text()='Bid'])[" + i + "]")).click();
 //					
 //					driver.findElement(By.xpath(locator.popYes));
+					
+//					driver.findElement(By.xpath(locator.popYes));
 
+					}
 					System.out.println("Rank is: " + intRank + " and amount is: " + amount);
 				}
 
@@ -177,5 +239,5 @@ public class stepdef {
 			
 		}
 	}
-	
+
 }
