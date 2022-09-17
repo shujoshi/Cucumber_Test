@@ -9,6 +9,8 @@ public class Hooks {
 	public static WebDriver driver;
 	@Before
   public void setup() {
+		
+		
 	   driver = Drivermanager.getDriver();
   }
 
