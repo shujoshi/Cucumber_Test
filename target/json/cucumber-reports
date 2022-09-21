@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-09-17T08:33:58.659Z",
+        "start_timestamp": "2022-09-21T11:40:52.978Z",
         "before": [
           {
             "result": {
-              "duration": 4368000000,
+              "duration": 2452000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 29743000000,
+              "duration": 4505000000,
               "status": "passed"
             },
             "line": 5,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1174000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 6,
@@ -54,20 +54,20 @@
           },
           {
             "result": {
-              "duration": 2267000000,
+              "duration": 1691000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "Enter Email ID \"jimmy30678@yahoo.co.in\" Password \"icici@123\" and click on Login Button",
+            "name": "Enter Email ID \"biskutzgold@gmail.com\" Password \"Biskutz@123\" and click on Login Button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"jimmy30678@yahoo.co.in\"",
+                  "val": "\"biskutzgold@gmail.com\"",
                   "offset": 15
                 },
                 {
-                  "val": "\"icici@123\"",
-                  "offset": 49
+                  "val": "\"Biskutz@123\"",
+                  "offset": 48
                 }
               ],
               "location": "stepdefs.stepdef.enter_email_id_password(java.lang.String,java.lang.String)"
@@ -82,11 +82,10 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-17T08:34:37.043Z",
+        "start_timestamp": "2022-09-21T11:41:01.847Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -103,15 +102,15 @@
         "steps": [
           {
             "result": {
-              "duration": 6950000000,
+              "duration": 3587000000,
               "status": "passed"
             },
             "line": 14,
-            "name": "Click on View Results button for Auction ID 5759",
+            "name": "Click on View Results button for Auction ID 5898",
             "match": {
               "arguments": [
                 {
-                  "val": "5759",
+                  "val": "5898",
                   "offset": 44
                 }
               ],
@@ -121,11 +120,11 @@
           },
           {
             "result": {
-              "duration": 62381000000,
+              "duration": 61133000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "Enter Bidding Amount start from Sr No 1 for row count 5 run loop for 1 add additional amount 10 and submit \"No\"",
+            "name": "Enter Bidding Amount start from Sr No 1 for row count 10 run loop for 1 add additional amount 100 and submit \"No\"",
             "match": {
               "arguments": [
                 {
@@ -133,20 +132,20 @@
                   "offset": 38
                 },
                 {
-                  "val": "5",
+                  "val": "10",
                   "offset": 54
                 },
                 {
                   "val": "1",
-                  "offset": 69
+                  "offset": 70
                 },
                 {
-                  "val": "10",
-                  "offset": 93
+                  "val": "100",
+                  "offset": 94
                 },
                 {
                   "val": "\"No\"",
-                  "offset": 107
+                  "offset": 109
                 }
               ],
               "location": "stepdefs.stepdef.enter_bidding_amount_with_Parameters(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)"

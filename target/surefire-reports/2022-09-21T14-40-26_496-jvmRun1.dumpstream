@@ -1,0 +1,2077 @@
+# Created at 2022-09-21T14:40:35.786
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2022-09-21T14:40:40.026
+Unexpected IOException: I,1,sun.desktop,windows
+
+
+# Created at 2022-09-21T14:40:40.028
+Unexpected IOException: I,1,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created at 2022-09-21T14:40:40.030
+Unexpected IOException: I,1,file.encoding.pkg,sun.io
+
+
+# Created at 2022-09-21T14:40:40.031
+Unexpected IOException: I,1,java.specification.version,1.8
+
+
+# Created at 2022-09-21T14:40:40.033
+Unexpected IOException: I,1,webdriver.chrome.driver,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Cchromedriver.exe
+
+
+# Created at 2022-09-21T14:40:40.036
+Unexpected IOException: I,1,sun.cpu.isalist,amd64
+
+
+# Created at 2022-09-21T14:40:40.038
+Unexpected IOException: I,1,sun.jnu.encoding,Cp1252
+
+
+# Created at 2022-09-21T14:40:40.039
+Unexpected IOException: I,1,java.class.path,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Ctest-classes;C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Cclasses;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C6.9.1\005Ccucumber-java-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C6.9.1\005Ccucumber-core-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C6.9.1\005Ccucumber-gherkin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C6.9.1\005Ccucumber-gherkin-messages-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C13.2.1\005Cmessages-13.2.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C3.0.0\005Ctag-expressions-3.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C10.3.0\005Ccucumber-expressions-10.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.5.0\005Cdatatable-3.5.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C6.9.1\005Ccucumber-plugin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C6.9.1\005Cdocstring-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C9.0.0\005Chtml-formatter-9.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccreate-meta\005C2.0.4\005Ccreate-meta-2.0.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C6.9.1\005Ccucumber-junit-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-picocontainer\005C6.9.1\005Ccucumber-picocontainer-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cpicocontainer\005Cpicocontainer\005C2.15\005Cpicocontainer-2.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports-cucumber4-adapter\005C1.0.7\005Cextentreports-cucumber4-adapter-1.0.7.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver\005C3.3.0\005Cmongodb-driver-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver-core\005C3.3.0\005Cmongodb-driver-core-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports\005C4.0.9\005Cextentreports-4.0.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cbson\005C3.3.0\005Cbson-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.2\005Chttpclient-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.4\005Chttpcore-4.4.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.9\005Ccommons-codec-1.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.2\005Chttpmime-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.5\005Cgson-2.8.5.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.28\005Cfreemarker-2.3.28.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongo-java-driver\005C3.10.2\005Cmongo-java-driver-3.10.2.jar;
+
+
+# Created at 2022-09-21T14:40:40.040
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:40.042
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created at 2022-09-21T14:40:40.043
+Unexpected IOException: I,1,user.variant,
+
+
+# Created at 2022-09-21T14:40:40.044
+Unexpected IOException: I,1,java.vendor.url,http://java.oracle.com/
+
+
+# Created at 2022-09-21T14:40:40.051
+Unexpected IOException: I,1,user.timezone,Asia/Calcutta
+
+
+# Created at 2022-09-21T14:40:40.052
+Unexpected IOException: I,1,os.name,Windows 10
+
+
+# Created at 2022-09-21T14:40:40.053
+Unexpected IOException: I,1,java.vm.specification.version,1.8
+
+
+# Created at 2022-09-21T14:40:40.055
+Unexpected IOException: I,1,user.country,IN
+
+
+# Created at 2022-09-21T14:40:40.056
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2022-09-21T14:40:40.057
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Cbin
+
+
+# Created at 2022-09-21T14:40:40.058
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005Csurefire935434293962178795\005Csurefirebooter5661212634314349599.jar C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005Csurefire935434293962178795 2022-09-21T14-40-26_496-jvmRun1 surefire1242087061425613270tmp surefire_02316620708627516131tmp
+
+
+# Created at 2022-09-21T14:40:40.060
+Unexpected IOException: I,1,surefire.test.class.path,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Ctest-classes;C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Cclasses;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C6.9.1\005Ccucumber-java-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C6.9.1\005Ccucumber-core-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C6.9.1\005Ccucumber-gherkin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C6.9.1\005Ccucumber-gherkin-messages-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C13.2.1\005Cmessages-13.2.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C3.0.0\005Ctag-expressions-3.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C10.3.0\005Ccucumber-expressions-10.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.5.0\005Cdatatable-3.5.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C6.9.1\005Ccucumber-plugin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C6.9.1\005Cdocstring-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C9.0.0\005Chtml-formatter-9.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccreate-meta\005C2.0.4\005Ccreate-meta-2.0.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C6.9.1\005Ccucumber-junit-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-picocontainer\005C6.9.1\005Ccucumber-picocontainer-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cpicocontainer\005Cpicocontainer\005C2.15\005Cpicocontainer-2.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports-cucumber4-adapter\005C1.0.7\005Cextentreports-cucumber4-adapter-1.0.7.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver\005C3.3.0\005Cmongodb-driver-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver-core\005C3.3.0\005Cmongodb-driver-core-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports\005C4.0.9\005Cextentreports-4.0.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cbson\005C3.3.0\005Cbson-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.2\005Chttpclient-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.4\005Chttpcore-4.4.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.9\005Ccommons-codec-1.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.2\005Chttpmime-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.5\005Cgson-2.8.5.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.28\005Cfreemarker-2.3.28.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongo-java-driver\005C3.10.2\005Cmongo-java-driver-3.10.2.jar;
+
+
+# Created at 2022-09-21T14:40:40.062
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created at 2022-09-21T14:40:40.064
+Unexpected IOException: I,1,user.home,C:\005CUsers\005CShubham
+
+
+# Created at 2022-09-21T14:40:40.065
+Unexpected IOException: I,1,user.language,en
+
+
+# Created at 2022-09-21T14:40:40.067
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:40.068
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre
+
+
+# Created at 2022-09-21T14:40:40.069
+Unexpected IOException: I,1,basedir,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel
+
+
+# Created at 2022-09-21T14:40:40.070
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created at 2022-09-21T14:40:40.071
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created at 2022-09-21T14:40:40.072
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:40.072
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created at 2022-09-21T14:40:40.073
+Unexpected IOException: I,1,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2022-09-21T14:40:40.074
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005Csurefire935434293962178795\005Csurefirebooter5661212634314349599.jar
+
+
+# Created at 2022-09-21T14:40:40.075
+Unexpected IOException: I,1,sun.boot.class.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cresources.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Crt.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Csunrsasign.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cjsse.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cjce.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Ccharsets.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cjfr.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Cclasses
+
+
+# Created at 2022-09-21T14:40:40.075
+Unexpected IOException: I,1,user.script,
+
+
+# Created at 2022-09-21T14:40:40.076
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2022-09-21T14:40:40.077
+Unexpected IOException: I,1,java.runtime.version,1.8.0_171-b11
+
+
+# Created at 2022-09-21T14:40:40.078
+Unexpected IOException: I,1,user.name,Shubham
+
+
+# Created at 2022-09-21T14:40:40.079
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created at 2022-09-21T14:40:40.080
+Unexpected IOException: I,1,os.version,10.0
+
+
+# Created at 2022-09-21T14:40:40.080
+Unexpected IOException: I,1,java.endorsed.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cendorsed
+
+
+# Created at 2022-09-21T14:40:40.081
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2022-09-21T14:40:40.083
+Unexpected IOException: I,1,file.encoding,Cp1252
+
+
+# Created at 2022-09-21T14:40:40.084
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2022-09-21T14:40:40.085
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005CShubham\005C.m2\005Crepository
+
+
+# Created at 2022-09-21T14:40:40.086
+Unexpected IOException: I,1,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created at 2022-09-21T14:40:40.087
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2022-09-21T14:40:40.087
+Unexpected IOException: I,1,java.version,1.8.0_171
+
+
+# Created at 2022-09-21T14:40:40.089
+Unexpected IOException: I,1,user.dir,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel
+
+
+# Created at 2022-09-21T14:40:40.089
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created at 2022-09-21T14:40:40.090
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2022-09-21T14:40:40.091
+Unexpected IOException: I,1,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created at 2022-09-21T14:40:40.092
+Unexpected IOException: I,1,sun.os.patch.level,
+
+
+# Created at 2022-09-21T14:40:40.092
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005Cnodejs\005C;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cbin;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Cbin;D:\005CSelenium\005Capache-maven-3.5.4\005Cbin;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files\005CGit\005Cmingw64\005Cbin;C:\005CProgram Files\005CGit\005Cusr\005Cbin;C:\005CProgram Files\005CTortoiseGit\005Cbin;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CAndroid\005CSdk\005Cplatform-tools;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CAndroid\005CSdk\005Ctools;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CAndroid\005CSdk\005Ctools\005Cbin;C:\005CProgram Files\005CGit xltrail;C:\005CProgram Files\005Cnodejs\005Cnode_modules\005Cnpm\005Cbin;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CUsers\005CShubham\005CAppData\005CRoaming\005Cnpm;D:\005CSelenium\005Capache-maven-3.5.4\005Cbin;;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CPrograms\005CMicrosoft VS Code\005Cbin;C:\005CUsers\005CShubham\005CDesktop;;.
+
+
+# Created at 2022-09-21T14:40:40.093
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created at 2022-09-21T14:40:40.094
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:40.094
+Unexpected IOException: I,1,java.vm.version,25.171-b11
+
+
+# Created at 2022-09-21T14:40:40.095
+Unexpected IOException: I,1,java.ext.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cext;C:\005CWINDOWS\005CSun\005CJava\005Clib\005Cext
+
+
+# Created at 2022-09-21T14:40:40.096
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2022-09-21T14:40:40.097
+Unexpected IOException: I,1,java.class.version,52.0
+
+
+# Created at 2022-09-21T14:40:43.620
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.621
+Unexpected IOException with stream: Failed scenarios:
+
+# Created at 2022-09-21T14:40:43.623
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.624
+Unexpected IOException with stream: file:///C:/Users/Shubham/eclipse-workspace/Cucumber_Parallel/src/test/resources/feature/Feature1.feature:20 # Test
+
+# Created at 2022-09-21T14:40:43.625
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.626
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.628
+Unexpected IOException with stream: 2
+
+# Created at 2022-09-21T14:40:43.630
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2022-09-21T14:40:43.631
+Unexpected IOException with stream: 1 failed
+
+# Created at 2022-09-21T14:40:43.632
+Unexpected IOException with stream: , 
+
+# Created at 2022-09-21T14:40:43.634
+Unexpected IOException with stream: 1 passed
+
+# Created at 2022-09-21T14:40:43.636
+Unexpected IOException with stream: )
+
+# Created at 2022-09-21T14:40:43.638
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.640
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:43.642
+Unexpected IOException with stream:  Steps (
+
+# Created at 2022-09-21T14:40:43.643
+Unexpected IOException with stream: 1 failed
+
+# Created at 2022-09-21T14:40:43.644
+Unexpected IOException with stream: , 
+
+# Created at 2022-09-21T14:40:43.645
+Unexpected IOException with stream: 1 skipped
+
+# Created at 2022-09-21T14:40:43.646
+Unexpected IOException with stream: , 
+
+# Created at 2022-09-21T14:40:43.647
+Unexpected IOException with stream: 3 passed
+
+# Created at 2022-09-21T14:40:43.649
+Unexpected IOException with stream: )
+
+# Created at 2022-09-21T14:40:43.650
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.651
+Unexpected IOException with stream: 0m
+
+# Created at 2022-09-21T14:40:43.652
+Unexpected IOException with stream: 13.108s
+
+# Created at 2022-09-21T14:40:43.653
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.654
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.655
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.657
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Manual bid'])[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JPGFM2D', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Shubham\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb88bbda064d93a68e01570fdb2d49d
+*** Element info: {Using=xpath, value=(//a[text()='Manual bid'])[1]}
+
+# Created at 2022-09-21T14:40:43.657
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.659
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2022-09-21T14:40:43.659
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.661
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2022-09-21T14:40:43.662
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.663
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2022-09-21T14:40:43.664
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.665
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2022-09-21T14:40:43.665
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.667
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2022-09-21T14:40:43.668
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.669
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2022-09-21T14:40:43.670
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.671
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2022-09-21T14:40:43.673
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.674
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2022-09-21T14:40:43.675
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.677
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2022-09-21T14:40:43.678
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.679
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2022-09-21T14:40:43.680
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.681
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2022-09-21T14:40:43.682
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.683
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2022-09-21T14:40:43.684
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.685
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2022-09-21T14:40:43.686
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.687
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2022-09-21T14:40:43.688
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.690
+Unexpected IOException with stream: 	at stepdefs.stepdef.click_manual_bid_button(stepdef.java:140)
+
+# Created at 2022-09-21T14:40:43.691
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.691
+Unexpected IOException with stream: 	at ?.Click on Manual bid button for Auction ID 5898(file:///C:/Users/Shubham/eclipse-workspace/Cucumber_Parallel/src/test/resources/feature/Feature1.feature:15)
+
+# Created at 2022-09-21T14:40:43.692
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.693
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.694
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.757
+Unexpected IOException: I,2,sun.desktop,windows
+
+
+# Created at 2022-09-21T14:40:43.758
+Unexpected IOException: I,2,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created at 2022-09-21T14:40:43.759
+Unexpected IOException: I,2,file.encoding.pkg,sun.io
+
+
+# Created at 2022-09-21T14:40:43.761
+Unexpected IOException: I,2,java.specification.version,1.8
+
+
+# Created at 2022-09-21T14:40:43.762
+Unexpected IOException: I,2,webdriver.chrome.driver,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Cchromedriver.exe
+
+
+# Created at 2022-09-21T14:40:43.763
+Unexpected IOException: I,2,sun.cpu.isalist,amd64
+
+
+# Created at 2022-09-21T14:40:43.764
+Unexpected IOException: I,2,sun.jnu.encoding,Cp1252
+
+
+# Created at 2022-09-21T14:40:43.766
+Unexpected IOException: I,2,java.class.path,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Ctest-classes;C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Cclasses;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C6.9.1\005Ccucumber-java-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C6.9.1\005Ccucumber-core-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C6.9.1\005Ccucumber-gherkin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C6.9.1\005Ccucumber-gherkin-messages-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C13.2.1\005Cmessages-13.2.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C3.0.0\005Ctag-expressions-3.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C10.3.0\005Ccucumber-expressions-10.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.5.0\005Cdatatable-3.5.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C6.9.1\005Ccucumber-plugin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C6.9.1\005Cdocstring-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C9.0.0\005Chtml-formatter-9.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccreate-meta\005C2.0.4\005Ccreate-meta-2.0.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C6.9.1\005Ccucumber-junit-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-picocontainer\005C6.9.1\005Ccucumber-picocontainer-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cpicocontainer\005Cpicocontainer\005C2.15\005Cpicocontainer-2.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports-cucumber4-adapter\005C1.0.7\005Cextentreports-cucumber4-adapter-1.0.7.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver\005C3.3.0\005Cmongodb-driver-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver-core\005C3.3.0\005Cmongodb-driver-core-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports\005C4.0.9\005Cextentreports-4.0.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cbson\005C3.3.0\005Cbson-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.2\005Chttpclient-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.4\005Chttpcore-4.4.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.9\005Ccommons-codec-1.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.2\005Chttpmime-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.5\005Cgson-2.8.5.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.28\005Cfreemarker-2.3.28.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongo-java-driver\005C3.10.2\005Cmongo-java-driver-3.10.2.jar;
+
+
+# Created at 2022-09-21T14:40:43.767
+Unexpected IOException: I,2,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:43.768
+Unexpected IOException: I,2,sun.arch.data.model,64
+
+
+# Created at 2022-09-21T14:40:43.770
+Unexpected IOException: I,2,user.variant,
+
+
+# Created at 2022-09-21T14:40:43.771
+Unexpected IOException: I,2,java.vendor.url,http://java.oracle.com/
+
+
+# Created at 2022-09-21T14:40:43.772
+Unexpected IOException: I,2,user.timezone,Asia/Calcutta
+
+
+# Created at 2022-09-21T14:40:43.773
+Unexpected IOException: I,2,os.name,Windows 10
+
+
+# Created at 2022-09-21T14:40:43.774
+Unexpected IOException: I,2,java.vm.specification.version,1.8
+
+
+# Created at 2022-09-21T14:40:43.776
+Unexpected IOException: I,2,user.country,IN
+
+
+# Created at 2022-09-21T14:40:43.777
+Unexpected IOException: I,2,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2022-09-21T14:40:43.778
+Unexpected IOException: I,2,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Cbin
+
+
+# Created at 2022-09-21T14:40:43.779
+Unexpected IOException: I,2,sun.java.command,C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005Csurefire935434293962178795\005Csurefirebooter5661212634314349599.jar C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005Csurefire935434293962178795 2022-09-21T14-40-26_496-jvmRun1 surefire1242087061425613270tmp surefire_02316620708627516131tmp
+
+
+# Created at 2022-09-21T14:40:43.781
+Unexpected IOException: I,2,surefire.test.class.path,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Ctest-classes;C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel\005Ctarget\005Cclasses;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C6.9.1\005Ccucumber-java-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C6.9.1\005Ccucumber-core-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C6.9.1\005Ccucumber-gherkin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C6.9.1\005Ccucumber-gherkin-messages-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C13.2.1\005Cmessages-13.2.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C3.0.0\005Ctag-expressions-3.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C10.3.0\005Ccucumber-expressions-10.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.5.0\005Cdatatable-3.5.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C6.9.1\005Ccucumber-plugin-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C6.9.1\005Cdocstring-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C9.0.0\005Chtml-formatter-9.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccreate-meta\005C2.0.4\005Ccreate-meta-2.0.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C6.9.1\005Ccucumber-junit-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13.2\005Cjunit-4.13.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-picocontainer\005C6.9.1\005Ccucumber-picocontainer-6.9.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cpicocontainer\005Cpicocontainer\005C2.15\005Cpicocontainer-2.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports-cucumber4-adapter\005C1.0.7\005Cextentreports-cucumber4-adapter-1.0.7.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver\005C3.3.0\005Cmongodb-driver-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongodb-driver-core\005C3.3.0\005Cmongodb-driver-core-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Caventstack\005Cextentreports\005C4.0.9\005Cextentreports-4.0.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cbson\005C3.3.0\005Cbson-3.3.0.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.2\005Chttpclient-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.4\005Chttpcore-4.4.4.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.9\005Ccommons-codec-1.9.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.2\005Chttpmime-4.5.2.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.5\005Cgson-2.8.5.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.28\005Cfreemarker-2.3.28.jar;C:\005CUsers\005CShubham\005C.m2\005Crepository\005Corg\005Cmongodb\005Cmongo-java-driver\005C3.10.2\005Cmongo-java-driver-3.10.2.jar;
+
+
+# Created at 2022-09-21T14:40:43.782
+Unexpected IOException: I,2,sun.cpu.endian,little
+
+
+# Created at 2022-09-21T14:40:43.784
+Unexpected IOException: I,2,user.home,C:\005CUsers\005CShubham
+
+
+# Created at 2022-09-21T14:40:43.785
+Unexpected IOException: I,2,user.language,en
+
+
+# Created at 2022-09-21T14:40:43.786
+Unexpected IOException: I,2,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:43.787
+Unexpected IOException: I,2,java.home,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre
+
+
+# Created at 2022-09-21T14:40:43.788
+Unexpected IOException: I,2,basedir,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel
+
+
+# Created at 2022-09-21T14:40:43.790
+Unexpected IOException: I,2,file.separator,\005C
+
+
+# Created at 2022-09-21T14:40:43.791
+Unexpected IOException: I,2,line.separator,\000D\000A
+
+
+# Created at 2022-09-21T14:40:43.792
+Unexpected IOException: I,2,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:43.793
+Unexpected IOException: I,2,java.specification.name,Java Platform API Specification
+
+
+# Created at 2022-09-21T14:40:43.794
+Unexpected IOException: I,2,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2022-09-21T14:40:43.795
+Unexpected IOException: I,2,surefire.real.class.path,C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005Csurefire935434293962178795\005Csurefirebooter5661212634314349599.jar
+
+
+# Created at 2022-09-21T14:40:43.797
+Unexpected IOException: I,2,sun.boot.class.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cresources.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Crt.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Csunrsasign.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cjsse.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cjce.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Ccharsets.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cjfr.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Cclasses
+
+
+# Created at 2022-09-21T14:40:43.798
+Unexpected IOException: I,2,user.script,
+
+
+# Created at 2022-09-21T14:40:43.799
+Unexpected IOException: I,2,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created at 2022-09-21T14:40:43.800
+Unexpected IOException: I,2,java.runtime.version,1.8.0_171-b11
+
+
+# Created at 2022-09-21T14:40:43.801
+Unexpected IOException: I,2,user.name,Shubham
+
+
+# Created at 2022-09-21T14:40:43.802
+Unexpected IOException: I,2,path.separator,;
+
+
+# Created at 2022-09-21T14:40:43.803
+Unexpected IOException: I,2,os.version,10.0
+
+
+# Created at 2022-09-21T14:40:43.804
+Unexpected IOException: I,2,java.endorsed.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cendorsed
+
+
+# Created at 2022-09-21T14:40:43.805
+Unexpected IOException: I,2,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2022-09-21T14:40:43.806
+Unexpected IOException: I,2,file.encoding,Cp1252
+
+
+# Created at 2022-09-21T14:40:43.807
+Unexpected IOException: I,2,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created at 2022-09-21T14:40:43.808
+Unexpected IOException: I,2,localRepository,C:\005CUsers\005CShubham\005C.m2\005Crepository
+
+
+# Created at 2022-09-21T14:40:43.809
+Unexpected IOException: I,2,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created at 2022-09-21T14:40:43.810
+Unexpected IOException: I,2,java.io.tmpdir,C:\005CUsers\005CShubham\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2022-09-21T14:40:43.812
+Unexpected IOException: I,2,java.version,1.8.0_171
+
+
+# Created at 2022-09-21T14:40:43.813
+Unexpected IOException: I,2,user.dir,C:\005CUsers\005CShubham\005Ceclipse-workspace\005CCucumber_Parallel
+
+
+# Created at 2022-09-21T14:40:43.814
+Unexpected IOException: I,2,os.arch,amd64
+
+
+# Created at 2022-09-21T14:40:43.815
+Unexpected IOException: I,2,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2022-09-21T14:40:43.816
+Unexpected IOException: I,2,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created at 2022-09-21T14:40:43.816
+Unexpected IOException: I,2,sun.os.patch.level,
+
+
+# Created at 2022-09-21T14:40:43.817
+Unexpected IOException: I,2,java.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005CProgram Files\005Cnodejs\005C;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cbin;C:\005CProgram Files\005CJava\005Cjre1.8.0_171\005Cbin;D:\005CSelenium\005Capache-maven-3.5.4\005Cbin;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files\005CGit\005Cmingw64\005Cbin;C:\005CProgram Files\005CGit\005Cusr\005Cbin;C:\005CProgram Files\005CTortoiseGit\005Cbin;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CAndroid\005CSdk\005Cplatform-tools;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CAndroid\005CSdk\005Ctools;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CAndroid\005CSdk\005Ctools\005Cbin;C:\005CProgram Files\005CGit xltrail;C:\005CProgram Files\005Cnodejs\005Cnode_modules\005Cnpm\005Cbin;C:\005CProgram Files\005CJava\005Cjdk1.8.0_171;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CUsers\005CShubham\005CAppData\005CRoaming\005Cnpm;D:\005CSelenium\005Capache-maven-3.5.4\005Cbin;;C:\005CUsers\005CShubham\005CAppData\005CLocal\005CPrograms\005CMicrosoft VS Code\005Cbin;C:\005CUsers\005CShubham\005CDesktop;;.
+
+
+# Created at 2022-09-21T14:40:43.818
+Unexpected IOException: I,2,java.vm.info,mixed mode
+
+
+# Created at 2022-09-21T14:40:43.819
+Unexpected IOException: I,2,java.vendor,Oracle Corporation
+
+
+# Created at 2022-09-21T14:40:43.820
+Unexpected IOException: I,2,java.vm.version,25.171-b11
+
+
+# Created at 2022-09-21T14:40:43.821
+Unexpected IOException: I,2,java.ext.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_171\005Cjre\005Clib\005Cext;C:\005CWINDOWS\005CSun\005CJava\005Clib\005Cext
+
+
+# Created at 2022-09-21T14:40:43.822
+Unexpected IOException: I,2,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2022-09-21T14:40:43.823
+Unexpected IOException: I,2,java.class.version,52.0
+
+
+# Created at 2022-09-21T14:40:43.825
+Unexpected IOException: 1,2,Auction,Auction,null,null,null
+
+
+# Created at 2022-09-21T14:40:43.826
+Unexpected IOException: 5,2,Auction,Login into Application(Auction),null,null,9640
+
+
+# Created at 2022-09-21T14:40:43.827
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.828
+Unexpected IOException with stream: @test
+
+
+# Created at 2022-09-21T14:40:43.830
+Unexpected IOException with stream: Scenario Outline: Login into Application                                                      # src/test/resources/feature/Feature1.feature:11
+
+
+# Created at 2022-09-21T14:40:43.846
+Unexpected IOException with stream: S
+
+# Created at 2022-09-21T14:40:43.847
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:43.848
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.849
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.852
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:43.853
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:43.854
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:43.855
+Unexpected IOException with stream: g
+
+# Created at 2022-09-21T14:40:43.856
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.857
+Unexpected IOException with stream: C
+
+# Created at 2022-09-21T14:40:43.858
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:43.858
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.859
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:43.860
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:43.860
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.861
+Unexpected IOException with stream: D
+
+# Created at 2022-09-21T14:40:43.862
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.864
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:43.865
+Unexpected IOException with stream: v
+
+# Created at 2022-09-21T14:40:43.866
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.867
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.868
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.869
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.870
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:43.871
+Unexpected IOException with stream: 4
+
+# Created at 2022-09-21T14:40:43.872
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:43.873
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:43.874
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:43.875
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:43.876
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.877
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.878
+Unexpected IOException with stream: 2
+
+# Created at 2022-09-21T14:40:43.879
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:43.880
+Unexpected IOException with stream: 7
+
+# Created at 2022-09-21T14:40:43.881
+Unexpected IOException with stream: 9
+
+# Created at 2022-09-21T14:40:43.882
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.883
+Unexpected IOException with stream: (
+
+# Created at 2022-09-21T14:40:43.884
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:43.885
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.886
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:43.887
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:43.888
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.889
+Unexpected IOException with stream: 8
+
+# Created at 2022-09-21T14:40:43.890
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.891
+Unexpected IOException with stream: 8
+
+# Created at 2022-09-21T14:40:43.893
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.894
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:43.895
+Unexpected IOException with stream: 7
+
+# Created at 2022-09-21T14:40:43.897
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:43.898
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.898
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:43.899
+Unexpected IOException with stream: 4
+
+# Created at 2022-09-21T14:40:43.900
+Unexpected IOException with stream: b
+
+# Created at 2022-09-21T14:40:43.901
+Unexpected IOException with stream: 9
+
+# Created at 2022-09-21T14:40:43.902
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.903
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.904
+Unexpected IOException with stream: 2
+
+# Created at 2022-09-21T14:40:43.905
+Unexpected IOException with stream: 6
+
+# Created at 2022-09-21T14:40:43.907
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:43.908
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.909
+Unexpected IOException with stream: 9
+
+# Created at 2022-09-21T14:40:43.910
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.911
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:43.912
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.914
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:43.923
+Unexpected IOException with stream: b
+
+# Created at 2022-09-21T14:40:43.924
+Unexpected IOException with stream: 8
+
+# Created at 2022-09-21T14:40:43.925
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:43.926
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:43.928
+Unexpected IOException with stream: 8
+
+# Created at 2022-09-21T14:40:43.928
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:43.929
+Unexpected IOException with stream: 2
+
+# Created at 2022-09-21T14:40:43.930
+Unexpected IOException with stream: 8
+
+# Created at 2022-09-21T14:40:43.931
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:43.932
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:43.932
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.933
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:43.934
+Unexpected IOException with stream: -
+
+# Created at 2022-09-21T14:40:43.935
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.935
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.936
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:43.937
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:43.938
+Unexpected IOException with stream: /
+
+# Created at 2022-09-21T14:40:43.939
+Unexpected IOException with stream: b
+
+# Created at 2022-09-21T14:40:43.940
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.940
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.941
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:43.942
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.943
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:43.944
+Unexpected IOException with stream: -
+
+# Created at 2022-09-21T14:40:43.944
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:43.945
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.946
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.947
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:43.947
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:43.948
+Unexpected IOException with stream: /
+
+# Created at 2022-09-21T14:40:43.949
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:43.950
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.951
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.951
+Unexpected IOException with stream: 2
+
+# Created at 2022-09-21T14:40:43.952
+Unexpected IOException with stream: @
+
+# Created at 2022-09-21T14:40:43.953
+Unexpected IOException with stream: {
+
+# Created at 2022-09-21T14:40:43.953
+Unexpected IOException with stream: #
+
+# Created at 2022-09-21T14:40:43.954
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.955
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:43.956
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:43.956
+Unexpected IOException with stream: 7
+
+# Created at 2022-09-21T14:40:43.957
+Unexpected IOException with stream: }
+
+# Created at 2022-09-21T14:40:43.958
+Unexpected IOException with stream: )
+
+# Created at 2022-09-21T14:40:43.958
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.959
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:43.960
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:43.961
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.961
+Unexpected IOException with stream: p
+
+# Created at 2022-09-21T14:40:43.962
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:43.963
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.963
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:43.964
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.965
+Unexpected IOException with stream: 2
+
+# Created at 2022-09-21T14:40:43.966
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:43.966
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:43.967
+Unexpected IOException with stream: 4
+
+# Created at 2022-09-21T14:40:43.968
+Unexpected IOException with stream: 6
+
+# Created at 2022-09-21T14:40:43.968
+Unexpected IOException with stream: 
+
+# Created at 2022-09-21T14:40:43.969
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.970
+Unexpected IOException with stream: O
+
+# Created at 2022-09-21T14:40:43.971
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:43.971
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:43.972
+Unexpected IOException with stream: y
+
+# Created at 2022-09-21T14:40:43.973
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.973
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:43.974
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:43.975
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.975
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.976
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:43.977
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.977
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.978
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:43.978
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:43.979
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:43.979
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.980
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:43.981
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:43.982
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:43.982
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:43.983
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:43.983
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:43.984
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.985
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.985
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:43.986
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.986
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:43.987
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.988
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:43.989
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:43.990
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:43.991
+Unexpected IOException with stream: w
+
+# Created at 2022-09-21T14:40:43.992
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.993
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:43.994
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:43.994
+Unexpected IOException with stream: 
+
+# Created at 2022-09-21T14:40:43.995
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:43.996
+Unexpected IOException with stream: P
+
+# Created at 2022-09-21T14:40:43.997
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:43.998
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:43.998
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:43.999
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.000
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.001
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.001
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.002
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.003
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.003
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.004
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.004
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.005
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.006
+Unexpected IOException with stream: p
+
+# Created at 2022-09-21T14:40:44.006
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.007
+Unexpected IOException with stream: :
+
+# Created at 2022-09-21T14:40:44.007
+Unexpected IOException with stream: /
+
+# Created at 2022-09-21T14:40:44.008
+Unexpected IOException with stream: /
+
+# Created at 2022-09-21T14:40:44.008
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:44.009
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.009
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.010
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.011
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:44.012
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.013
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:44.013
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.014
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.015
+Unexpected IOException with stream: v
+
+# Created at 2022-09-21T14:40:44.016
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.016
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.017
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:44.017
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:44.018
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.019
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.019
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.020
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:44.020
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.021
+Unexpected IOException with stream: u
+
+# Created at 2022-09-21T14:40:44.022
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:44.022
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:44.023
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.024
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.025
+Unexpected IOException with stream: g
+
+# Created at 2022-09-21T14:40:44.025
+Unexpected IOException with stream: /
+
+# Created at 2022-09-21T14:40:44.026
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.026
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.027
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:44.028
+Unexpected IOException with stream: u
+
+# Created at 2022-09-21T14:40:44.028
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.029
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.030
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.030
+Unexpected IOException with stream: y
+
+# Created at 2022-09-21T14:40:44.031
+Unexpected IOException with stream: -
+
+# Created at 2022-09-21T14:40:44.031
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:44.032
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.032
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.033
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.034
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.034
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:44.035
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.035
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.036
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:44.036
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.037
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.039
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.040
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.041
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.042
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.042
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:44.043
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.043
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.044
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.044
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.045
+Unexpected IOException with stream: u
+
+# Created at 2022-09-21T14:40:44.045
+Unexpected IOException with stream: g
+
+# Created at 2022-09-21T14:40:44.046
+Unexpected IOException with stream: g
+
+# Created at 2022-09-21T14:40:44.046
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.047
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.048
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.048
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.049
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.049
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.050
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.051
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.051
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.052
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.053
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.054
+Unexpected IOException with stream: k
+
+# Created at 2022-09-21T14:40:44.054
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.055
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.056
+Unexpected IOException with stream: p
+
+# Created at 2022-09-21T14:40:44.057
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.057
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.058
+Unexpected IOException with stream: g
+
+# Created at 2022-09-21T14:40:44.059
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.059
+Unexpected IOException with stream: C
+
+# Created at 2022-09-21T14:40:44.060
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.060
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.061
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.062
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:44.062
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.063
+Unexpected IOException with stream: D
+
+# Created at 2022-09-21T14:40:44.064
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.064
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.065
+Unexpected IOException with stream: v
+
+# Created at 2022-09-21T14:40:44.066
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.067
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.068
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.069
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.070
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:44.070
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:44.071
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.072
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:44.073
+Unexpected IOException with stream: 
+
+# Created at 2022-09-21T14:40:44.073
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:44.074
+Unexpected IOException with stream: C
+
+# Created at 2022-09-21T14:40:44.075
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.076
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.077
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.078
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:44.079
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.079
+Unexpected IOException with stream: D
+
+# Created at 2022-09-21T14:40:44.080
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.081
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.082
+Unexpected IOException with stream: v
+
+# Created at 2022-09-21T14:40:44.083
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.084
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.084
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.085
+Unexpected IOException with stream: w
+
+# Created at 2022-09-21T14:40:44.086
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:44.087
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.088
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.088
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.089
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.090
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:44.091
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.091
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.092
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.093
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:44.093
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.094
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.094
+Unexpected IOException with stream: u
+
+# Created at 2022-09-21T14:40:44.095
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:44.095
+Unexpected IOException with stream: c
+
+# Created at 2022-09-21T14:40:44.096
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.096
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.097
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.097
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:44.098
+Unexpected IOException with stream: u
+
+# Created at 2022-09-21T14:40:44.099
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:44.099
+Unexpected IOException with stream: l
+
+# Created at 2022-09-21T14:40:44.100
+Unexpected IOException with stream: y
+
+# Created at 2022-09-21T14:40:44.100
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:44.101
+Unexpected IOException with stream: 
+
+# Created at 2022-09-21T14:40:44.102
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:44.102
+Unexpected IOException with stream: [
+
+# Created at 2022-09-21T14:40:44.103
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:44.104
+Unexpected IOException with stream: 6
+
+# Created at 2022-09-21T14:40:44.104
+Unexpected IOException with stream: 6
+
+# Created at 2022-09-21T14:40:44.105
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:44.106
+Unexpected IOException with stream: 7
+
+# Created at 2022-09-21T14:40:44.107
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:44.108
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:44.109
+Unexpected IOException with stream: 4
+
+# Created at 2022-09-21T14:40:44.110
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:44.111
+Unexpected IOException with stream: 3
+
+# Created at 2022-09-21T14:40:44.112
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:44.112
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:44.113
+Unexpected IOException with stream: 2
+
+# Created at 2022-09-21T14:40:44.114
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:44.115
+Unexpected IOException with stream: ]
+
+# Created at 2022-09-21T14:40:44.116
+Unexpected IOException with stream: [
+
+# Created at 2022-09-21T14:40:44.117
+Unexpected IOException with stream: W
+
+# Created at 2022-09-21T14:40:44.117
+Unexpected IOException with stream: A
+
+# Created at 2022-09-21T14:40:44.118
+Unexpected IOException with stream: R
+
+# Created at 2022-09-21T14:40:44.119
+Unexpected IOException with stream: N
+
+# Created at 2022-09-21T14:40:44.120
+Unexpected IOException with stream: I
+
+# Created at 2022-09-21T14:40:44.121
+Unexpected IOException with stream: N
+
+# Created at 2022-09-21T14:40:44.122
+Unexpected IOException with stream: G
+
+# Created at 2022-09-21T14:40:44.122
+Unexpected IOException with stream: ]
+
+# Created at 2022-09-21T14:40:44.123
+Unexpected IOException with stream: :
+
+# Created at 2022-09-21T14:40:44.124
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.124
+Unexpected IOException with stream: T
+
+# Created at 2022-09-21T14:40:44.125
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.125
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.126
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.126
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.127
+Unexpected IOException with stream: v
+
+# Created at 2022-09-21T14:40:44.127
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.128
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.128
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.129
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.129
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.130
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.130
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.131
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.132
+Unexpected IOException with stream: f
+
+# Created at 2022-09-21T14:40:44.133
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.133
+Unexpected IOException with stream: C
+
+# Created at 2022-09-21T14:40:44.134
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.134
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.135
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.135
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:44.136
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.136
+Unexpected IOException with stream: D
+
+# Created at 2022-09-21T14:40:44.137
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.137
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.138
+Unexpected IOException with stream: v
+
+# Created at 2022-09-21T14:40:44.138
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.139
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.139
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.140
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.141
+Unexpected IOException with stream: a
+
+# Created at 2022-09-21T14:40:44.141
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.142
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.143
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.143
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.144
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.144
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.145
+Unexpected IOException with stream: b
+
+# Created at 2022-09-21T14:40:44.146
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.146
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.147
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.147
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.148
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.149
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.149
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.150
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.150
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.151
+Unexpected IOException with stream: d
+
+# Created at 2022-09-21T14:40:44.151
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.152
+Unexpected IOException with stream: w
+
+# Created at 2022-09-21T14:40:44.152
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.153
+Unexpected IOException with stream: t
+
+# Created at 2022-09-21T14:40:44.153
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.154
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.155
+Unexpected IOException with stream: C
+
+# Created at 2022-09-21T14:40:44.155
+Unexpected IOException with stream: h
+
+# Created at 2022-09-21T14:40:44.156
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.157
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.158
+Unexpected IOException with stream: m
+
+# Created at 2022-09-21T14:40:44.158
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.159
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.160
+Unexpected IOException with stream: v
+
+# Created at 2022-09-21T14:40:44.160
+Unexpected IOException with stream: e
+
+# Created at 2022-09-21T14:40:44.161
+Unexpected IOException with stream: r
+
+# Created at 2022-09-21T14:40:44.162
+Unexpected IOException with stream: s
+
+# Created at 2022-09-21T14:40:44.162
+Unexpected IOException with stream: i
+
+# Created at 2022-09-21T14:40:44.163
+Unexpected IOException with stream: o
+
+# Created at 2022-09-21T14:40:44.164
+Unexpected IOException with stream: n
+
+# Created at 2022-09-21T14:40:44.164
+Unexpected IOException with stream:  
+
+# Created at 2022-09-21T14:40:44.165
+Unexpected IOException with stream: 1
+
+# Created at 2022-09-21T14:40:44.165
+Unexpected IOException with stream: 0
+
+# Created at 2022-09-21T14:40:44.166
+Unexpected IOException with stream: 5
+
+# Created at 2022-09-21T14:40:44.166
+Unexpected IOException with stream: .
+
+# Created at 2022-09-21T14:40:44.167
+Unexpected IOException with stream: 
+
+# Created at 2022-09-21T14:40:44.168
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:44.168
+Unexpected IOException with stream: Sep 21, 2022 2:40:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2022-09-21T14:40:44.169
+Unexpected IOException with stream:   Given Navigate to "https://jewel-auction.procuretiger.com/JEWEL/"                           # stepdefs.stepdef.navigate_to(java.lang.String)
+
+
+# Created at 2022-09-21T14:40:44.169
+Unexpected IOException with stream:   When Click on Login button                                                                  # stepdefs.stepdef.click_login_button()
+
+
+# Created at 2022-09-21T14:40:44.170
+Unexpected IOException with stream:   And Enter Email ID "biskutzgold@gmail.com" Password "Biskutz@123" and click on Login Button # stepdefs.stepdef.enter_email_id_password(java.lang.String,java.lang.String)
+
+
+# Created at 2022-09-21T14:40:44.170
+Unexpected IOException: 6,2,Auction,Login into Application(Auction),null,null,9640
+
+
+# Created at 2022-09-21T14:40:44.171
+Unexpected IOException: 5,2,Auction,Test(Auction),null,null,3321
+
+
+# Created at 2022-09-21T14:40:44.171
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-21T14:40:44.172
+Unexpected IOException with stream: @test
+
+
+# Created at 2022-09-21T14:40:44.173
+Unexpected IOException with stream: Scenario Outline: Test                                                                                                    # src/test/resources/feature/Feature1.feature:20
+
+
+# Created at 2022-09-21T14:40:44.174
+Unexpected IOException with stream: auctionIDAct is: 5898
+
+
+# Created at 2022-09-21T14:40:44.174
+Unexpected IOException with stream:   When Click on Manual bid button for Auction ID 5898                                                                     # stepdefs.stepdef.click_manual_bid_button(java.lang.Integer)
+
+
+# Created at 2022-09-21T14:40:44.175
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Manual bid'])[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JPGFM2D', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Shubham\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb88bbda064d93a68e01570fdb2d49d
+*** Element info: {Using=xpath, value=(//a[text()='Manual bid'])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepdefs.stepdef.click_manual_bid_button(stepdef.java:140)
+	at âœ½.Click on Manual bid button for Auction ID 5898(file:///C:/Users/Shubham/eclipse-workspace/Cucumber_Parallel/src/test/resources/feature/Feature1.feature:15)
+
+
+
+# Created at 2022-09-21T14:40:44.176
+Unexpected IOException with stream:   And Enter Bidding Amount start from Sr No 43 for row count 42 run loop for 5 add additional amount 100 and submit "Yes" # stepdefs.stepdef.enter_bidding_amount_with_Parameters(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)
+
+
+# Created at 2022-09-21T14:40:44.183
+Unexpected IOException: 7,2,Auction,Test(Auction),null,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"(//a[text()='Manual bid'])[1]"}\000A  (Session info: chrome=105.0.5195.127)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-JPGFM2D'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 105.0.5195.127\002C chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d...\002C userDataDir: C:\005CUsers\005CShubham\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:49777}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8cb88bbda064d93a68e01570fdb2d49d\000A*** Element info: {Using=xpath\002C value=(//a[text()='Manual bid'])[1]},3321,no such element: Unable to locate element: {"method":"xpath"\002C"selector":"(//a[text()='Manual bid'])[1]"}\000A  (Session info: chrome=105.0.5195.127)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-JPGFM2D'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 105.0.5195.127\002C chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d...\002C userDataDir: C:\005CUsers\005CShubham\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:49777}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8cb88bbda064d93a68e01570fdb2d49d\000A*** Element info: {Using=xpath\002C value=(//a[text()='Manual bid'])[1]},no such element: Unable to locate element: {"method":"xpath"\002C"selector":"(//a[text()='Manual bid'])[1]"}\000A  (Session info: chrome=105.0.5195.127)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-JPGFM2D'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 105.0.5195.127\002C chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d...\002C userDataDir: C:\005CUsers\005CShubham\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:49777}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8cb88bbda064d93a68e01570fdb2d49d\000A*** Element info: {Using=xpath\002C value=(//a[text()='Manual bid'])[1]},org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"(//a[text()='Manual bid'])[1]"}\000A  (Session info: chrome=105.0.5195.127)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-JPGFM2D'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 105.0.5195.127\002C chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d...\002C userDataDir: C:\005CUsers\005CShubham\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:49777}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8cb88bbda064d93a68e01570fdb2d49d\000A*** Element info: {Using=xpath\002C value=(//a[text()='Manual bid'])[1]}\000A
+
+
+# Created at 2022-09-21T14:40:44.184
+Unexpected IOException: 2,2,Auction,Auction,null,null,13034
+
+
