@@ -1,8 +1,14 @@
 package stepdefs;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
@@ -10,6 +16,9 @@ import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -237,12 +246,10 @@ public class stepdef {
 
 					if (arg5.equals("Yes") ) {
 						 driver.findElement(By.xpath("(//button[text()='Bid'])[" + i + "]")).click();
-						//
+						
 						 driver.findElement(By.xpath(locator.popYes)).click();
 
 						 driver.findElement(By.xpath(locator.popYes)).click();
-						 
-//						 ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
 
 					}
 					System.out.println("Rank is: " + intRank + " and amount is: " + amount);
@@ -253,4 +260,71 @@ public class stepdef {
 		}
 	}
 
+	@When("Check Bidding Amount with Max Amount start from Sr No {int} for row count {int} run loop for {int} add additional amount {int} and submit {string}")
+	public void Check_enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) throws IOException, ParseException {
+
+
+		
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator.yourRank)));
+		List<WebElement> weList = driver.findElements(By.xpath(locator.yourRank));
+
+		System.out.println("weList is: " + weList.size());
+		long endTime = System.nanoTime() + TimeUnit.NANOSECONDS.convert(arg3.longValue(), TimeUnit.MINUTES);
+		while (System.nanoTime() < endTime) {
+			int i = arg1;
+			for (i = arg1; i < (arg1 + arg2); i++) {
+
+				String rank = driver.findElement(By.xpath("(//span[contains(@id,'bidRank')])[" + i + "]")).getText();
+				System.out.println("rank is: " + rank + " i values is: " + i);
+				Integer intRank = 0;
+				if (rank.equals("Not bidded")) {
+					intRank = 2;
+				} else {
+					intRank = Integer.valueOf(rank);
+				}
+				if (intRank > 1) {
+
+					JSONParser jsonParser = new JSONParser();
+					FileReader fileReader = new FileReader(".\\src\\test\\java\\AmountJson\\MaxAmount.json");
+					Object obj = jsonParser.parse(fileReader);
+					JSONObject amtObj = (JSONObject)obj;
+					int maxAmt =  (int) (long) amtObj.get("" + i + "");
+					
+				//	double maxAmt =  (double) (long) amtObj.get(i);
+					
+					String amount = driver.findElement(By.xpath("(//span[contains(@id,'netBidAmt')])[" + i + "]"))
+							.getText();
+
+					Double intAmount = Double.valueOf(amount);
+
+		
+					
+					if(intAmount<=maxAmt) {
+
+						Double increasedAmount = intAmount + arg4;
+					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]")).clear();
+
+					driver.findElement(By.xpath("(//td[@class='a-center biddercell']/input)[" + i + "]"))
+							.sendKeys(increasedAmount.toString());
+
+					if (arg5.equals("Yes") ) {
+						 driver.findElement(By.xpath("(//button[text()='Bid'])[" + i + "]")).click();
+						
+						 driver.findElement(By.xpath(locator.popYes)).click();
+
+						 driver.findElement(By.xpath(locator.popYes)).click();
+
+					}
+					}
+					System.out.println("Rank is: " + intRank + " and amount is: " + amount);
+				}
+
+			}
+
+		}
+	}
+
+	
 }
