@@ -1,0 +1,179 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-05T04:35:28.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3195000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login into Application",
+        "description": "",
+        "id": "auction;login-into-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6047000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to \"https://jewel-auction.procuretiger.com/JEWEL/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://jewel-auction.procuretiger.com/JEWEL/\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.stepdef.navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "stepdefs.stepdef.click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1805000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Email ID \"biskutzgold@gmail.com\" Password \"Biskutz@123\" and click on Login Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"biskutzgold@gmail.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Biskutz@123\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepdefs.stepdef.enter_email_id_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-05T04:35:40.319Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Test",
+        "description": "",
+        "id": "auction;test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2765000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on View Results button for Auction ID 5898",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5898",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefs.stepdef.click_view_result_button(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60554000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Check Bidding Amount with Max Amount start from Sr No 1 for row count 2 run loop for 1 add additional amount 100 and submit \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 54
+                },
+                {
+                  "val": "2",
+                  "offset": 70
+                },
+                {
+                  "val": "1",
+                  "offset": 85
+                },
+                {
+                  "val": "100",
+                  "offset": 109
+                },
+                {
+                  "val": "\"No\"",
+                  "offset": 124
+                }
+              ],
+              "location": "stepdefs.stepdef.Check_enter_bidding_amount_with_Parameters(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Auction",
+    "description": "",
+    "id": "auction",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Feature1.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

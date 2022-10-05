@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Auction
+Test set: runner.TestRun
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 75.969 s - in Auction
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.444 sec
