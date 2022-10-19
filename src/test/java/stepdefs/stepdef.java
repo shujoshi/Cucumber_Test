@@ -29,14 +29,15 @@ public class stepdef {
 	Locators locator = new Locators();
 
 	@Given("Navigate to {string}")
-	public void navigate_to(String string) {
+	public void navigate_to(String string) throws InterruptedException {
 		try {
+			Thread.sleep(5000);
 			driver.get(string);
 			driver.switchTo().alert().accept();
 
 			driver.manage().window().maximize();
 		} catch (Exception NoAlertPresentException) {
-
+			Thread.sleep(5000);
 			driver.manage().window().maximize();
 		}
 	}
@@ -44,6 +45,7 @@ public class stepdef {
 	@When("Click on Login button")
 	public void click_login_button() {
 		try {
+			Thread.sleep(5000);
 			driver.findElement(By.xpath(locator.LoginButton)).click();	
 		}catch(Exception e) {
 			System.out.println("Failed due to + " + e);
@@ -57,15 +59,18 @@ public class stepdef {
 	public void enter_email_id_password(String arg1, String arg2) {
 
 		try {
+			Thread.sleep(5000);
 			driver.findElement(By.xpath(locator.EmailInputField)).sendKeys(arg1);
 
 			driver.findElement(By.xpath(locator.PasswordInputField)).sendKeys(arg2);
 
 			driver.findElement(By.xpath(locator.LoginButtonPopUp)).click();
 
+			Thread.sleep(5000);
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 			List<WebElement> popUp = driver.findElements(By.xpath(locator.popYes));
+			Thread.sleep(5000);
 
 			if (popUp.size() > 0) {
 				driver.findElement(By.xpath(locator.popYes)).click();
@@ -82,6 +87,7 @@ public class stepdef {
 	public void get_Auction_ID() {
 
 		try {
+			Thread.sleep(5000);
 			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
 			List<WebElement> paraList = driver.findElements(By.xpath("//*[@id='reportDetail']/tr/td[2]/div/p"));
@@ -110,7 +116,7 @@ public class stepdef {
 	@When("Click on View Results button for Auction ID {int}")
 	public void click_view_result_button(Integer auctionID) {
 		try {
-
+			Thread.sleep(5000);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
 		WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -145,6 +151,7 @@ public class stepdef {
 	@When("Click on Manual bid button for Auction ID {int}")
 	public void click_manual_bid_button(Integer auctionID) {
 try {
+	Thread.sleep(5000);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
 		WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -235,7 +242,7 @@ try {
 	public void enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) {
 
 		try {
-		
+			Thread.sleep(5000);
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator.yourRank)));
