@@ -1,6 +1,6 @@
 package stepdefs;
 
-import java.io.FileNotFoundException;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
@@ -43,54 +43,73 @@ public class stepdef {
 
 	@When("Click on Login button")
 	public void click_login_button() {
+		try {
+			driver.findElement(By.xpath(locator.LoginButton)).click();	
+		}catch(Exception e) {
+			System.out.println("Failed due to + " + e);
+		}
 
-		driver.findElement(By.xpath(locator.LoginButton)).click();
+		
 
 	}
 
 	@When("Enter Email ID {string} Password {string} and click on Login Button")
 	public void enter_email_id_password(String arg1, String arg2) {
 
-		driver.findElement(By.xpath(locator.EmailInputField)).sendKeys(arg1);
+		try {
+			driver.findElement(By.xpath(locator.EmailInputField)).sendKeys(arg1);
 
-		driver.findElement(By.xpath(locator.PasswordInputField)).sendKeys(arg2);
+			driver.findElement(By.xpath(locator.PasswordInputField)).sendKeys(arg2);
 
-		driver.findElement(By.xpath(locator.LoginButtonPopUp)).click();
+			driver.findElement(By.xpath(locator.LoginButtonPopUp)).click();
 
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		List<WebElement> popUp = driver.findElements(By.xpath(locator.popYes));
+			List<WebElement> popUp = driver.findElements(By.xpath(locator.popYes));
 
-		if (popUp.size() > 0) {
-			driver.findElement(By.xpath(locator.popYes)).click();
+			if (popUp.size() > 0) {
+				driver.findElement(By.xpath(locator.popYes)).click();
+			}	
+		}catch(Exception e) {
+			System.out.println("Failed due to + " + e);
 		}
+		
+		
+		
 	}
 
 	@When("Get Auction IDs")
 	public void get_Auction_ID() {
 
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		try {
+			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
-		List<WebElement> paraList = driver.findElements(By.xpath("//*[@id='reportDetail']/tr/td[2]/div/p"));
+			List<WebElement> paraList = driver.findElements(By.xpath("//*[@id='reportDetail']/tr/td[2]/div/p"));
 
-		for (int i = 1; i <= paraList.size(); i++) {
+			for (int i = 1; i <= paraList.size(); i++) {
 
-			String paragraph = driver.findElement(By.xpath("(//*[@id='reportDetail']/tr/td[2]/div/p)[" + i + "]"))
-					.getText();
+				String paragraph = driver.findElement(By.xpath("(//*[@id='reportDetail']/tr/td[2]/div/p)[" + i + "]"))
+						.getText();
 
-			String[] paragraphArray = paragraph.split("Auction ID: ");
+				String[] paragraphArray = paragraph.split("Auction ID: ");
 
-			String[] stringArray = paragraphArray[1].split("\n");
+				String[] stringArray = paragraphArray[1].split("\n");
 
-			String auctionID = stringArray[0];
+				String auctionID = stringArray[0];
 
-			System.out.println("auctionID is: " + auctionID);
+				System.out.println("auctionID is: " + auctionID);
+			}	
+		}catch(Exception e) {
+			System.out.println("Failed due to + " + e);
 		}
+		
+		
 
 	}
 
 	@When("Click on View Results button for Auction ID {int}")
 	public void click_view_result_button(Integer auctionID) {
+		try {
 
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
@@ -118,12 +137,14 @@ public class stepdef {
 				break;
 			}
 		}
-
+		}catch(Exception e) {
+			System.out.println("Failed due to " + e);
+		}
 	}
 
 	@When("Click on Manual bid button for Auction ID {int}")
 	public void click_manual_bid_button(Integer auctionID) {
-
+try {
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
 		WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -150,7 +171,9 @@ public class stepdef {
 				break;
 			}
 		}
-
+}catch(Exception e) {
+	System.out.println("Failed due to " + e);
+}
 	}
 
 	// @When("Enter Bidding Amount start from Sr No {int} for row count {int}")
@@ -211,6 +234,8 @@ public class stepdef {
 	@When("Enter Bidding Amount start from Sr No {int} for row count {int} run loop for {int} add additional amount {int} and submit {string}")
 	public void enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) {
 
+		try {
+		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator.yourRank)));
@@ -256,15 +281,17 @@ public class stepdef {
 				}
 
 			}
-
+		}
+		}catch(Exception e) {
+			System.out.println("Failed due to " + e);
 		}
 	}
 
 	@When("Check Bidding Amount with Max Amount start from Sr No {int} for row count {int} run loop for {int} add additional amount {int} and submit {string}")
-	public void Check_enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) throws IOException, ParseException {
+	public void Check_enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) throws IOException, ParseException, InterruptedException {
+try {
 
-
-		
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator.yourRank)));
@@ -324,7 +351,9 @@ public class stepdef {
 			}
 
 		}
+	}catch(Exception e) {
+		System.out.println("Failed due to " + e);
 	}
-
+	}
 	
 }
