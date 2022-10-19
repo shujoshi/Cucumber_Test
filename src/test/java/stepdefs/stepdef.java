@@ -239,9 +239,9 @@ try {
 	// }
 
 	@When("Enter Bidding Amount start from Sr No {int} for row count {int} run loop for {int} add additional amount {int} and submit {string}")
-	public void enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) {
+	public void enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) throws InterruptedException {
 
-		try {
+		
 			Thread.sleep(5000);
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 
@@ -253,7 +253,7 @@ try {
 		while (System.nanoTime() < endTime) {
 			int i = arg1;
 			for (i = arg1; i < (arg1 + arg2); i++) {
-
+try {
 				String rank = driver.findElement(By.xpath("(//span[contains(@id,'bidRank')])[" + i + "]")).getText();
 				System.out.println("rank is: " + rank + " i values is: " + i);
 				Integer intRank = 0;
@@ -286,17 +286,17 @@ try {
 					}
 					System.out.println("Rank is: " + intRank + " and amount is: " + amount);
 				}
-
+}catch(Exception e) {
+	System.out.println("Failed due to " + e);
+}
 			}
 		}
-		}catch(Exception e) {
-			System.out.println("Failed due to " + e);
-		}
+		
 	}
 
 	@When("Check Bidding Amount with Max Amount start from Sr No {int} for row count {int} run loop for {int} add additional amount {int} and submit {string}")
 	public void Check_enter_bidding_amount_with_Parameters(Integer arg1, Integer arg2, Integer arg3, Integer arg4, String arg5) throws IOException, ParseException, InterruptedException {
-try {
+
 
 		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, 20);
@@ -309,7 +309,7 @@ try {
 		while (System.nanoTime() < endTime) {
 			int i = arg1;
 			for (i = arg1; i < (arg1 + arg2); i++) {
-
+try {
 				String rank = driver.findElement(By.xpath("(//span[contains(@id,'bidRank')])[" + i + "]")).getText();
 				System.out.println("rank is: " + rank + " i values is: " + i);
 				Integer intRank = 0;
@@ -354,13 +354,15 @@ try {
 					}
 					System.out.println("Rank is: " + intRank + " and amount is: " + amount);
 				}
-
+}
+catch(Exception e) {
+	System.out.println("Failed due to " + e);
+}
 			}
 
+
 		}
-	}catch(Exception e) {
-		System.out.println("Failed due to " + e);
-	}
+	
 	}
 	
 }

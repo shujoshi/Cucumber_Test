@@ -13,6 +13,7 @@ Feature: Auction
   Scenario Outline: Test
     When Click on View Results button for Auction ID <AuctionID>
     #When Click on Manual bid button for Auction ID <AuctionID>
+   #And Enter Bidding Amount start from Sr No <SrNO> for row count <rowCount> run loop for <DurationInMinute> add additional amount <AdditionalAmount> and submit <Bidding>
     And Check Bidding Amount with Max Amount start from Sr No <SrNO> for row count <rowCount> run loop for <DurationInMinute> add additional amount <AdditionalAmount> and submit <Bidding>
 
     Examples: 
