@@ -19,18 +19,18 @@ public class Drivermanager {
 		try {
 		if(driver==null) {
 
-//			System.setProperty("webdriver.chrome.driver", (new File(System.getProperty("user.dir")+ "\\chromedriver.exe").getCanonicalPath()));
-//			
-//			
-//			ChromeOptions options = new ChromeOptions();
-//			options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-//			
-//		   driver =new ChromeDriver(options);
-		 
-			DesiredCapabilities caps = new DesiredCapabilities();
-			caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+			System.setProperty("webdriver.chrome.driver", (new File(System.getProperty("user.dir")+ "\\chromedriver.exe").getCanonicalPath()));
 			
-		   driver = new RemoteWebDriver(new URL("http://192.168.1.12:4444"), caps);
+			
+			ChromeOptions options = new ChromeOptions();
+			options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+			
+		   driver =new ChromeDriver(options);
+		 
+//			DesiredCapabilities caps = new DesiredCapabilities();
+//			caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+//			
+//		   driver = new RemoteWebDriver(new URL("http://192.168.1.12:4444"), caps);
 		}
 		
 		
